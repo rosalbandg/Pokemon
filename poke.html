@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de Pokémon</title>
+    <link rel="stylesheet" href="poke.css">
+</head>
+<body>
+    <div class="col-xl-3">
+        <img  src="poke.img"class="poke-container " alt="..." img-fluid style="width:1229px;height:350px" alt="..." />   
+    </div>
+    <section>
+        <div class="banner">LA LISTE DES POKEMON</div>
+        <ul id="pokemon-list"></ul>
+        <div id="pokemon-details"></div>
+    </section>
+
+<hr>
+    <section id="search-section">
+        <h2>Recherche de Pokémon</h2>
+        <form id="search-form">
+            <label for="pokemon-Number">Numéro du Pokémon :</label>
+            <input type="text" id="pokemon-Number" name="pokemon-Number">
+            <button type="submit">Rechercher</button>
+        </form>
+        <div id="search-results">
+        </div>
+    </section>
+    <script src="poke.js"></script>
+</body>
+</html>
+
